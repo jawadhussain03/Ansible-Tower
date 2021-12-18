@@ -1,6 +1,7 @@
 ---
  - name: "Get ping response"
    hosts: all
+   user: ansible
    tasks:
    - action: ping
      register: hello
